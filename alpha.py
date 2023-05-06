@@ -3,7 +3,8 @@ def layout_generator(str, color):
         "?": "-question",
         "!": "-exclamation",
         "@": "-at",
-        "#": "-hash"
+        "#": "-hash",
+	"'": "-single-quote"
     }
     ret = ""
     for c in str:
